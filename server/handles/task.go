@@ -1,14 +1,14 @@
 package handles
 
 import (
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/task"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/task"
 	"math"
 
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server/common"
+	"github.com/machsix/alist/v3/internal/fs"
+	"github.com/machsix/alist/v3/internal/offline_download/tool"
+	"github.com/machsix/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/server/common"
 	"github.com/gin-gonic/gin"
 	"github.com/xhofe/tache"
 )

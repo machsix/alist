@@ -7,10 +7,10 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 	"fmt"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/internal/driver"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/pkg/utils"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/pkg/errors"
@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alist-org/alist/v3/drivers/base"
+	"github.com/machsix/alist/v3/drivers/base"
 	"github.com/go-resty/resty/v2"
 )
 

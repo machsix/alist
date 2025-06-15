@@ -9,11 +9,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/drivers/base"
+	"github.com/machsix/alist/v3/internal/errs"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/pkg/utils"
 	"github.com/go-resty/resty/v2"
 )
 

@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/alist-org/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/model"
 	"github.com/pkg/errors"
 )
 

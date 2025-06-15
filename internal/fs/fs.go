@@ -2,10 +2,10 @@ package fs
 
 import (
 	"context"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/task"
+	"github.com/machsix/alist/v3/internal/driver"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/internal/task"
 	log "github.com/sirupsen/logrus"
 )
 

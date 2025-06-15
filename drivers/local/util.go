@@ -9,9 +9,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/pkg/utils"
 	"github.com/disintegration/imaging"
 	ffmpeg "github.com/u2takey/ffmpeg-go"
 )

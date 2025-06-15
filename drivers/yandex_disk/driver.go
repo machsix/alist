@@ -6,10 +6,10 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/driver"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/drivers/base"
+	"github.com/machsix/alist/v3/internal/driver"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/pkg/utils"
 	"github.com/go-resty/resty/v2"
 )
 

@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"strings"
 
-	_ "github.com/alist-org/alist/v3/drivers"
-	"github.com/alist-org/alist/v3/internal/bootstrap/data"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	_ "github.com/machsix/alist/v3/drivers"
+	"github.com/machsix/alist/v3/internal/bootstrap/data"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/pkg/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

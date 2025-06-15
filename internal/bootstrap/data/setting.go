@@ -1,13 +1,13 @@
 package data
 
 import (
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/pkg/utils/random"
+	"github.com/machsix/alist/v3/cmd/flags"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/offline_download/tool"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/pkg/utils/random"
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 )
@@ -85,7 +85,7 @@ func InitialSettings() []model.SettingItem {
 		//{Key: conf.ApiUrl, Value: "", Type: conf.TypeString, Group: model.SITE},
 		//{Key: conf.BasePath, Value: "", Type: conf.TypeString, Group: model.SITE},
 		{Key: conf.SiteTitle, Value: "AList", Type: conf.TypeString, Group: model.SITE},
-		{Key: conf.Announcement, Value: "### repo\nhttps://github.com/alist-org/alist", Type: conf.TypeText, Group: model.SITE},
+		{Key: conf.Announcement, Value: "### repo\nhttps://github.com/machsix/alist", Type: conf.TypeText, Group: model.SITE},
 		{Key: "pagination_type", Value: "all", Type: conf.TypeSelect, Options: "all,pagination,load_more,auto_load_more", Group: model.SITE},
 		{Key: "default_page_size", Value: "30", Type: conf.TypeNumber, Group: model.SITE},
 		{Key: conf.AllowIndexed, Value: "false", Type: conf.TypeBool, Group: model.SITE},

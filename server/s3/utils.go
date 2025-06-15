@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/errs"
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/internal/setting"
-	"github.com/alist-org/gofakes3"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/errs"
+	"github.com/machsix/alist/v3/internal/fs"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/internal/setting"
+	"github.com/machsix/gofakes3"
 )
 
 type Bucket struct {

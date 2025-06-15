@@ -3,8 +3,8 @@ package febbox
 import (
 	"encoding/json"
 	"errors"
-	"github.com/alist-org/alist/v3/drivers/base"
-	"github.com/alist-org/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/drivers/base"
+	"github.com/machsix/alist/v3/internal/op"
 	"github.com/go-resty/resty/v2"
 	"net/http"
 	"strconv"

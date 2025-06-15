@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alist-org/alist/v3/cmd/flags"
-	_ "github.com/alist-org/alist/v3/drivers"
-	_ "github.com/alist-org/alist/v3/internal/offline_download"
+	"github.com/machsix/alist/v3/cmd/flags"
+	_ "github.com/machsix/alist/v3/drivers"
+	_ "github.com/machsix/alist/v3/internal/offline_download"
 	"github.com/spf13/cobra"
 )
 

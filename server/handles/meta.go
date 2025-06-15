@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/internal/op"
-	"github.com/alist-org/alist/v3/server/common"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/internal/op"
+	"github.com/machsix/alist/v3/server/common"
 	"github.com/dlclark/regexp2"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"

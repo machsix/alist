@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/alist-org/alist/v3/internal/model"
-	"github.com/alist-org/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/internal/model"
+	"github.com/machsix/alist/v3/pkg/utils"
 	log "github.com/sirupsen/logrus"
 )
 

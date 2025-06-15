@@ -1,14 +1,14 @@
 package server
 
 import (
-	"github.com/alist-org/alist/v3/cmd/flags"
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/message"
-	"github.com/alist-org/alist/v3/pkg/utils"
-	"github.com/alist-org/alist/v3/server/common"
-	"github.com/alist-org/alist/v3/server/handles"
-	"github.com/alist-org/alist/v3/server/middlewares"
-	"github.com/alist-org/alist/v3/server/static"
+	"github.com/machsix/alist/v3/cmd/flags"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/message"
+	"github.com/machsix/alist/v3/pkg/utils"
+	"github.com/machsix/alist/v3/server/common"
+	"github.com/machsix/alist/v3/server/handles"
+	"github.com/machsix/alist/v3/server/middlewares"
+	"github.com/machsix/alist/v3/server/static"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )

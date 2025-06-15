@@ -1,10 +1,10 @@
 package bootstrap
 
 import (
-	"github.com/alist-org/alist/v3/internal/conf"
-	"github.com/alist-org/alist/v3/internal/db"
-	"github.com/alist-org/alist/v3/internal/fs"
-	"github.com/alist-org/alist/v3/internal/offline_download/tool"
+	"github.com/machsix/alist/v3/internal/conf"
+	"github.com/machsix/alist/v3/internal/db"
+	"github.com/machsix/alist/v3/internal/fs"
+	"github.com/machsix/alist/v3/internal/offline_download/tool"
 	"github.com/xhofe/tache"
 )
 
