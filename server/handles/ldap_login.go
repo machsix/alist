@@ -15,7 +15,7 @@ import (
 	"github.com/machsix/alist/v3/pkg/utils/random"
 	"github.com/machsix/alist/v3/server/common"
 	"github.com/gin-gonic/gin"
-	"gopkg.in/ldap.v3"
+  "github.com/go-ldap/ldap/v3"
 )
 
 func LoginLdap(c *gin.Context) {
